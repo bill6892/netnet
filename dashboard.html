@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Netflixy • Accueil</title>
+  <meta name="description" content="الواجهة الرئيسية">
+  <meta property="og:image" content="https://netflixyapp.github.io/assets/img/marquee_promo_tile.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/icon-180.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icon-32.png">
+  <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/icon-180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/icon.png">
+  <link href="assets/css/semantic.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/login.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/modal.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body">
+  <div class="container w-container">
+    <img src="assets/img/logo.png" loading="lazy" alt="" />
+    <div class="text-block-4">
+      <button id="accessNetflixBtn" class="ui positive labeled icon button">
+        <i class="sign-in icon"></i>
+        Acc&#233;der &#224; Netflix
+      </button>
+    </div>
+    <div class="text-block">
+      <button id="accessAndroidBtn" class="ui orange labeled icon button">
+        <i class="mobile alternate icon"></i>
+        Mon code Netflixy
+      </button>
+    </div>
+    <div class="text-block" style="margin-top: 5px">
+      <div class="ui red basic label hidden" id="dashboardErrorText">
+      </div>
+    </div>
+    <div id="facebook-page-container" style="display: none;">
+      <div class="text-block-2">تبع كل ما هو جديد في عالم نتفلكس على الباج فيسبوك</div>
+      <div class="text-block-4-copy" style="margin-top: 20px">
+        <div class="fb-page" data-href="https://www.facebook.com/netflixytun" data-tabs="" data-width="" data-height=""
+          data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"
+          data-hide-cta="true">
+          <blockquote cite="https://www.facebook.com/netflixytun" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/netflixytun">Netflixy • نتفلكسي</a>
+          </blockquote>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="ui modal long scrolling" id="announcementModal">
+    <i class="close icon"></i>
+    <div class="header">
+      Annonces
+    </div>
+    <div class="image content">
+      <div class="description" dir="rtl" lang="ar" style="text-align: right; width: fit-content;"
+        id="announcementContainer">
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button">
+        Fermer
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui modal long scrolling" id="androidModal">
+    <i class="close icon"></i>
+    <div class="header">
+      Mon code Netflixy
+    </div>
+    <div class="image content">
+      <div class="description" dir="rtl" lang="ar" style="text-align: right;" id="androidContainer">
+        <div style="text-align: center;">
+          <o>Votre code</o>
+          <h1 id="codeContainer" style="margin-top: 0;"></h1>
+        </div>
+        <div class="ui header">شنوا نعمل بيه الكود نتفلكسي ؟</div>
+        <p>
+          الكود نتفلكسي متاعك يخليك تستعمل نتفلكسي على مختلف الأجهزة الأخرى كيما تليفونك.
+          <br>
+          بش تعرف كيفاش تصب نتفلكسي على أي جهاز آخر، يكفي تدخل <a href="https://netflixyapp.github.io/"
+            target="_blank">للرابط هذا !</a>
+        </p>
+        <br>
+        <div style="text-align: left;" dir="ltr">
+          <div class="ui header">A quoi sert mon code Netflixy ?</div>
+          <p>
+            Votre code vous permet d'utiliser Netflixy sur différents autres appareils tel que votre Smartphone.
+            <br>
+            Pour savoir comment installer Netflixy sur d'autres appareils, il suffit de consulter <a
+              href="https://netflixyapp.github.io/" target="_blank">ce lien !</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button">
+        Fermer
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/facebook.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/semantic.min.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+
+</html>
